@@ -196,6 +196,7 @@ header.sticky {
     font-weight: 600;
 }
 
+  
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
