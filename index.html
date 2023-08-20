@@ -11,10 +11,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--boxicons  -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 
 </head>
 
 <body>
+
+
 
     <!-- Navbar Section Start-->
 
@@ -27,11 +31,14 @@
             <li><a href="#about">About Me</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+
+
     </header>
 
     <!-- Navbar Section End-->
     <!-- Home Section Start-->
     <section class="home" id="home">
+
         <div class="home-text">
             <h4>Hey,</h4>
             <h1>I'm <span>Saral</span>.</h1>
@@ -39,6 +46,7 @@
             <a href="#about" class="btn">About Me</a>
         </div>
     </section>
+
     <!-- Home Section End-->
 
 
@@ -98,14 +106,14 @@
 
                             <h5>Nepali Date Extension</h5>
                         </a>
-                        
+
                     </div>
                     <div class="box-icon">
                         <i class="bx bx-heart"></i>
                     </div>
                 </div>
                 <h3>Displays today's Nepali date in a browser extension. </h3>
-                
+
             </div>
             <div class="port">
                 <img src="img/port2.png" alt="">
@@ -166,13 +174,13 @@
                 </div>
                 <h3>Generates QR Code of the website you input.</h3>
             </div>
-            
-            
-        
+
+
+
         </div>
-        
+
     </section>
-    
+
 
     <!-- Portfolio Section End -->
 
@@ -180,15 +188,15 @@
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
         <div class="contact-text">
-            
+
             <h4>Connect with me:</h4>
-            
+
             <div class="contact-list">
                 <li><a href="mailto:saralbjr@gmail.com">
-                    saralbjr@gmail.com
+                        saralbjr@gmail.com
                 </li></a>
                 <li>Bhaktapur, Nepal</li>
-                
+
             </div>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/saralbjr"><i class="bx bxl-linkedin"></i></a>
@@ -197,17 +205,130 @@
 
             </div>
         </div>
-      
+
     </section>
 
     <!-- Contact Section End -->
     <div class="hr"></div>
     <div class="copyright">
-    &copy; aKuma | 2023
+        &copy; aKuma | 2023
     </div>
+
 
     <!---custom js link--->
     <script src="script.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 200,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
 
 </body>
 
