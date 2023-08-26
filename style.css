@@ -42,11 +42,21 @@ header {
     transition: all 0.5s ease-in-out;
 }
 
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .border{
     color: #ffffff;
     text-shadow: 3px 3px 3px #000000;
   }
-  
+
 
 .logo {
     color: var(--text-color);
@@ -142,7 +152,7 @@ section {
     border: 2px solid var(--main-color);
 }
 
-header.sticky { 
+header.sticky {
     padding: 20px 3%;
     background: var(--bg-color);
     border-bottom: 1px solid #0e1630;
@@ -196,7 +206,7 @@ header.sticky {
     font-weight: 600;
 }
 
-  
+
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -301,7 +311,7 @@ header.sticky {
     flex-direction: column;
     text-align: center;
   }
-  
+
 
 .contact-text h4 {
     margin: 15px 0;
@@ -502,5 +512,5 @@ form textarea:focus {
         top: 100%;
     }
 
-    
+
 }
