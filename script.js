@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 const header = document.querySelector("header");
-document.getElementById("year").textContent = new Date().getFullYear();
 
 window.addEventListener("scroll", function () {
     header.classList.toggle("sticky", window.scrollY > 0);
